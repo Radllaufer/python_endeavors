@@ -326,7 +326,6 @@ while run:
             case pygame.KEYDOWN:
                 key = pygame.key.name(e.key)
 
-
                 if key in useable_keys:
                     change_direction(key)
 
